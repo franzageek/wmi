@@ -39,7 +39,7 @@ WMI is **very simple & intuitive+**. Follow **the guide** and the **WMI on-scree
 - One USB stick (or two, depending by how much disks are you using in your computer - don't worry: you will see later) at least of 2 GB;
 - A WMI copy downloaded from this repository (you can get it from [here](https://github.com/franzageek/wmi/releases))
 
-#### 1 - Get wmi.bat and copy it on your USB stick
+#### 1 Get wmi.bat and copy it on your USB stick
 First, you need to **download "wmi.bat"** from [the Releases page](https://github.com/franzageek/wmi/releases).
 **Copy it** to your **USB stick**. 
 
@@ -48,14 +48,14 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 
  > **NOTE**: Windows Installer may assign the letter C: to your USB drive. For WMI to work, the C: letter **needs to be unassigned**: in case of that, take another free USB stick and copy "wmi.bat" on it. The installer will now detect 2 USB sticks: one has got the C: letter and the other one has got another letter. See which one is the C: drive and unplug it. The other USB stick has got another letter that is no longer C: and WMI can continue with the process.
  
- #### 2 - Start Windows installation as normal
+ #### 2 Start Windows installation as normal
  **Turn on your PC** and **start the Windows Installer**. At the language screen, **press `Shift` + `F10`** : this should bring up the **Command Prompt**.
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575039-441bb6c4-13df-4c83-88e8-30702a763655.png">
 
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575061-91b56dae-29da-4c0f-b545-abc726488aae.png">
 
  
- #### 3 - Start WMI
+ #### 3 Start WMI
   On the CMD, **start WMI.BAT** by typing its path (in my case is **"e:\wmi.bat"**).
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575318-a143f1de-df8f-4656-9459-b90d8c500c19.png">
 
@@ -64,7 +64,7 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 <img width="800" alt="wmiexec" src="https://user-images.githubusercontent.com/88248950/178575346-bef66034-2b6b-4bb4-be2b-d799862cf504.png">
 
   
-  #### 4 - Follow on-screen steps given by WMI
+  #### 4 Follow on-screen steps given by WMI
   After you start it, all you need is to **follow on-screen steps** given by WMI.
   
   ### More info about Stages
@@ -93,7 +93,7 @@ Here you can find **common errors of WMI**:
 
 
 This error shows up if you're **running WMI from your USB that has been assigned the letter C.** The letter C needs to be **unassigned** for WMI to work.
-You can fix this error [this way](https://github.com/franzageek/wmi/#1---get-wmibat-and-copy-it-on-your-usb-stick).
+You can fix this error [this way](https://github.com/franzageek/wmi/#1-get-wmibat-and-copy-it-on-your-usb-stick).
 
 ### Error Code E00010
  > **ERROR: Cannot find the installation medium.**
