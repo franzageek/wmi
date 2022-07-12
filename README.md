@@ -71,14 +71,27 @@ Copy it to your USB stick.
   **Stage 2**: it is the last stage. It begins after the second reboot. This time you don't have to run WMI from the CMD because it is silently acting in background. It starts Local Session Manager, Windows Modules Installer and sets up your PC with TrustedInstaller. When it's done, you should see the desktop, and the installation is complete. To end completely the Stage 2, you need to run the last time WMI from an elevate CMD, by typing again "c:\wmi.bat". This time, WMI will delete temporary files and itself from the C:\ drive, allowing you to use Windows as you ever did!
   
   ## Support
-  WMI can install multiple Windows versions:
+  WMI works with multiple Windows versions:
   | Supported | Y/N | Why |
 | ------- | ------------------ | ------------------ |
-| Windows 7 | :x: | Windows 7 can detect your USB stick as a broken volume (I don't know why). Also, DISM cannot apply .WIM images. |
-| Windows 8 | :x: | Same as Windows 7, your USB may be detected as broken and DISM cannot apply any .WIM image. |
-| Windows 8.1 | :white_check_mark: | Fully supported (there may be graphical glitches due to the small size of the CMD window)|
+| Windows 7 | :x: | Windows 7 can detect your USB stick as a dirty volume (this can show Error E0023) (I don't know why). Also, DISM cannot apply .WIM images. |
+| Windows 8 | :x: | Same as Windows 7, your USB may be detected as dirty and DISM cannot apply any .WIM image. |
+| Windows 8.1 | :white_check_mark: | Fully supported (there may be graphical glitches due to the small size of the CMD window) |
 | Windows 10 | :white_check_mark: | Fully supported |
 | Windows 11 | :white_check_mark: | Fully supported |
+
+## Issues
+Here you can find common errors of WMI:
+
+### Error Code E0008
+This error shows up if you're running WMI from your USB that has been assigned the letter C. The letter C needs to be **unassigned** for WMI to work.
+You can fix this error [this way](https://github.com/franzageek/wmi/#1---get-wmibat-and-copy-it-on-your-usb-stick).
+
+### Error Code E0012
+This error shows up if the drive-letter C is already taken by your boot drive. The letter C needs to be **unassigned** for WMI to work.
+You can fix this error only by booting from another source.
   
+### Error Code E0019
+This error shows up in the form of a blinking text saying "The system cannot find the file specified" when you try to run WMI.
  
 
