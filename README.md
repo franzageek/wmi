@@ -116,6 +116,7 @@ This error shows up when **something goes wrong while applying Windows Image**. 
 This error shows up when **something goes wrong while creating boot files**. Try typing manually the command **"bcdboot C:\Windows /s W: /F ALL"** and then reboot.
 
 ### Error Code E0030
+ > **To complete Stage 2, please run WMI from an elevated CMD prompt.**
 This error shows up when you're **running WMI to complete Stage 2 from a non-elevated CMD prompt.** Try running WMI from an elevated CMD prompt.
 
 If you encountered **any kind of problem, please [open a issue](https://github.com/franzageek/wmi/issues)**.
