@@ -83,7 +83,7 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 | Windows 8 | :x: | Same as Windows 7, your USB may be detected as dirty and DISM cannot apply any WIM image. |
 | Windows 8.1 | :white_check_mark: | Fully supported (there may be graphical glitches due to the small size of the CMD window). |
 | Windows 10 | :white_check_mark: | Fully supported. |
-| Windows 11 | :white_check_mark: | Supported by WMI-UEFI version. |
+| Windows 11 | :white_check_mark: | Supported by WMI-UEFI version. (Download it [here](https://github.com/franzageek/wmi/releases).)
 
 ## Errors
 Here you can find **common errors of WMI**:
