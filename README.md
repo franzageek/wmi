@@ -81,9 +81,9 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 | ------- | ------------------ | ------------------ |
 | Windows 7 | :x: | Windows 7 can detect your USB stick as a dirty volume (this can show Error E0019) (I don't know why). Also, DISM cannot apply WIM images. |
 | Windows 8 | :x: | Same as Windows 7, your USB may be detected as dirty and DISM cannot apply any WIM image. |
-| Windows 8.1 | :white_check_mark: | Fully supported (there may be graphical glitches due to the small size of the CMD window) |
-| Windows 10 | :white_check_mark: | Fully supported |
-| Windows 11 | :x: | Windows 11 needs EFI, which is not currently supported by WMI. We will fix this in the next versions. |
+| Windows 8.1 | :white_check_mark: | Fully supported (there may be graphical glitches due to the small size of the CMD window). |
+| Windows 10 | :white_check_mark: | Fully supported. |
+| Windows 11 | :white_check_mark: | Supported by WMI-UEFI version. |
 
 ## Errors
 Here you can find **common errors of WMI**:
