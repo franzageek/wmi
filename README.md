@@ -31,7 +31,7 @@ If you encountered any kind of problem, **please [open a issue](https://github.c
 And... thats'it! A Batch Windows Installer! (What did you expect from a Batch Windows Installer?!?!) 
 
 ## Use
-WMI is **very simple & intuitive+**. Follow **the guide** and the **WMI on-screen steps** to install Windows correctly.
+WMI is **very simple & intuitive**. Follow **the guide** and the **WMI on-screen steps** to install Windows correctly.
 
 ### Prerequisites
 - A computer (or a virtual machine);
