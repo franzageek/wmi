@@ -26,7 +26,7 @@ WMI will use **some pre-installed tools**:
 - NET to create the user account;
 - WINDEPLOY to set up drivers & services.
 
-If you encountered any kind of problem, **please [open a issue](https://github.com/franzageek/wmi/issues)**.
+If you encountered any kind of problem, **please [open a issue](https://github.com/franzageek/wmi/issues)**. 
 
 And... thats'it! A Batch Windows Installer! (What did you expect from a Batch Windows Installer?!?!) 
 
