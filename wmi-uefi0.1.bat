@@ -147,7 +147,7 @@ echo    *   - Stage 1: After the first reboot,   *
 echo    *              WinDeploy gets started,   *
 echo    *              and the user account      *
 echo    *              is setted up.             *
-echo    *   - Stage 2: Ater the second reboot,   *
+echo    *   - Stage 2: After the second reboot,  *
 echo    *              the Windows Modules       *
 echo    *              Installer gets started,   *
 echo    *              and the installation is   *
