@@ -132,6 +132,24 @@ This error shows up when you're **running WMI to complete Stage 2 from a non-ele
 
 If you encountered **any kind of problem, please [open a issue](https://github.com/franzageek/wmi/issues)**.
 
+## Downloads
+Since the [Releases page](https://github.com/franzageek/wmi/releases) is a little messed up, here you can find all the downloads for WMI.
+
+**BIOS**
+
+[**`→ v0.1`**](https://github.com/franzageek/wmi/releases/tag/0.1)
+[**`→ v0.1.2`**](https://github.com/franzageek/wmi/releases/tag/0.1.2)
+[**`→ v0.1.3`**](https://github.com/franzageek/wmi/releases/tag/0.1.3)
+[**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/0.1.6)
+
+**UEFI**
+
+[**`→ v0.1`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1)
+[**`→ v0.1.2`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.2)
+[**`→ v0.1.3`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.3)
+[**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.6)
+
+
 ## Credits
 
 Thanks to Enderman which inspired me to make this software.
