@@ -5,7 +5,7 @@ The Batch installer for Windows!
 
 ![wmi](https://user-images.githubusercontent.com/88248950/178521169-f7996995-211f-41ba-b08d-e862ad6f7135.png)
 
-[**`Introduction`**](https://github.com/franzageek/wmi#introduction) - [**`Use`**](https://github.com/franzageek/wmi#use) - [**`Support`**](https://github.com/franzageek/wmi#support) - [**`Errors`**](https://github.com/franzageek/wmi#errors) - [**`Download`**](https://github.com/franzageek/wmi/releases) - [**`Credits`**](https://github.com/franzageek/wmi#credits)
+[**`Introduction`**](https://github.com/franzageek/wmi#introduction) - [**`Use`**](https://github.com/franzageek/wmi#use) - [**`Support`**](https://github.com/franzageek/wmi#support) - [**`Errors`**](https://github.com/franzageek/wmi#errors) - [**`Download`**](https://github.com/franzageek/wmi#Downloads) - [**`Credits`**](https://github.com/franzageek/wmi#credits)
 
 
 
