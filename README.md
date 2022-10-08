@@ -132,6 +132,11 @@ This error shows up when you're **running WMI to complete Stage 2 from a non-ele
 
 If you encountered **any kind of problem, please [open a issue](https://github.com/franzageek/wmi/issues)**.
 
+## WMI Rollback
+From WMI 0.2.0 onwards, WMI will have a recovery procedure to start whenever needed.
+If an error occurs, WMI will start the rollback procedure, which will reset the disk by canceling all the changes made to it.
+This way, the drive can be used again without any problem.
+
 ## Downloads
 Since the [Releases page](https://github.com/franzageek/wmi/releases) is a little messed up, here you can find all the downloads for WMI.
 
