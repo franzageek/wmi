@@ -135,8 +135,7 @@ If you encountered **any kind of problem, please [open a issue](https://github.c
 ## WMI Rollback
 > A WMI dependency - not distributable separately.
 
-![wrb](https://user-images.githubusercontent.com/88248950/194742778-210c06c4-9a3a-4694-bada-42f27e0dbc4b.png)
-
+![wrb](https://user-images.githubusercontent.com/88248950/194742841-e05a3e21-a499-4615-bd45-7915a7f16171.png)
 
 > _NOTE: WMI Rollback **UEFI** edition 0.1.0 doesn't support using WMI after the reverting phase due to unknown bugs.
 We'll try to fix the problem ASAP._
