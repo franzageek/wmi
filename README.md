@@ -56,7 +56,7 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 
  
  #### 3 - Start WMI
-  On the CMD, **start WMI.BAT** by typing its path (in my case is **"e:\wmi.bat"**).
+  On the CMD, **start WMI.BAT** by typing its path (in my case it's **"e:\wmi.bat"**).
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575318-a143f1de-df8f-4656-9459-b90d8c500c19.png">
 
   
