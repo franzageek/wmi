@@ -86,49 +86,10 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 | Windows 11 | :white_check_mark: | Supported by WMI-UEFI version. (Download it [here](https://github.com/franzageek/wmi/releases).)
 
 ## Errors
-Here you can find **common errors of WMI**:
 
-### Error Code E0008
- > **ERROR: The C: letter is already taken from another drive! Fix the error, then reboot.**
+I recently moved this section to [WMI's Wiki](https://github.com/franzageek/wmi/wiki).
 
-
-This error shows up if you're **running WMI from your USB that has been assigned the letter C.** The letter C needs to be **unassigned** for WMI to work.
-You can fix this error [this way](https://github.com/franzageek/wmi/#1-get-wmibat-and-copy-it-on-your-usb-stick).
-
-### Error Code E00010
- > **ERROR: Cannot find the installation medium.**
-
-
-This error shows up if WMI **cannot detect the installation drive.** Try rebooting or change USB stick.
-
-### Error Code E0012
- > **ERROR: The C: letter is taken from the installation drive! Fix the error and reboot.**
-
-
-This error shows up if the **drive-letter C is already taken by your boot drive**. The letter C needs to be **unassigned** for WMI to work.
-You can fix this error only by booting from another source.
-  
-### Error Code E0019
-![e0019](https://user-images.githubusercontent.com/88248950/178575821-2096db7d-b3d9-4f4e-9a95-257bccfa6ec6.gif)
-
-This error shows up as a **blinking text saying "The system cannot find the file specified"** when you try to run WMI. This happens because **WMI cannot read a temporary file stored on the USB, because the drive is detected as a dirty volume**. Try with another USB or try rebooting. 
-
-### Error Code E0021
- > **ERROR: Something went wrong when applying the image.**
-
-
-This error shows up when **something goes wrong while applying Windows Image**. Try rebooting and starting the program again.
-
-### Error Code E0023
- > **ERROR: Something went wrong when creating boot files.**
-
-This error shows up when **something goes wrong while creating boot files**. Try typing manually the command **"bcdboot C:\Windows /s W: /F ALL"** and then reboot.
-
-### Error Code E0030
- > **To complete Stage 2, please run WMI from an elevated CMD prompt.**
-
-
-This error shows up when you're **running WMI to complete Stage 2 from a non-elevated CMD prompt.** Try running WMI from an elevated CMD prompt.
+You can find the Help Section [here](https://github.com/franzageek/wmi/wiki/Help-&-error-troubleshooting).
 
 If you encountered **any kind of problem, please [open a issue](https://github.com/franzageek/wmi/issues)**.
 
