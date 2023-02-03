@@ -111,6 +111,7 @@ You can find WMI Rollback embedded with WMI 0.2.0 or later.
 
 ### Changelog
 `0.1.0`: First version of WMI Rollback (Download WMI 0.2.0: [BIOS](github.com/franzageek/releases/tag/0.2.0)/[UEFI](github.com/franzageek/releases/tag/uefi-0.2.0))
+
 `0.1.5`: Second version of WMI Rollback (Download WMI 0.2.2: [BIOS](github.com/franzageek/releases/tag/0.2.2)/[UEFI](github.com/franzageek/releases/tag/uefi-0.2.2))
 
 ## Downloads
