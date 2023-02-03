@@ -132,7 +132,7 @@ Since the [Releases page](https://github.com/franzageek/wmi/releases) is a littl
 [**`→ v0.1.3`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.3)
 [**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.6)
 [**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.0)
-[**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.2)
+[**`→ v0.2.2`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.2)
 
 
 ## Credits
