@@ -98,8 +98,7 @@ If you encountered **any kind of problem, please [open a issue](https://github.c
 
 ![wrb](https://user-images.githubusercontent.com/88248950/194742841-e05a3e21-a499-4615-bd45-7915a7f16171.png)
 
-> _NOTE: WMI Rollback **UEFI** edition 0.1.0 doesn't support using WMI after the reverting phase due to unknown bugs.
-We'll try to fix the problem ASAP._
+> **_NOTE_**: After using WMI UEFI 0.1.5, as well as its previous version, you cannot install Windows using WMI UEFI due to unknown bugs. We suggest you to use the default installer to install Windows from scratch. We will try to fix the problem as soon as possible. Sorry for the inconvenience.
 
 From WMI 0.2.0 onwards, WMI will have a recovery procedure to start whenever needed.
 If an error occurs, WMI will start the rollback procedure, which will reset the disk by canceling all the changes made to it.
@@ -112,7 +111,7 @@ You can find WMI Rollback embedded with WMI 0.2.0 or later.
 
 ### Changelog
 `0.1.0`: First version of WMI Rollback (Download WMI 0.2.0: [BIOS](github.com/franzageek/releases/tag/0.2.0)/[UEFI](github.com/franzageek/releases/tag/uefi-0.2.0))
-
+`0.1.5`: Second version of WMI Rollback (Download WMI 0.2.2: [BIOS](github.com/franzageek/releases/tag/0.2.2)/[UEFI](github.com/franzageek/releases/tag/uefi-0.2.2))
 
 ## Downloads
 Since the [Releases page](https://github.com/franzageek/wmi/releases) is a little messed up, here you can find all the downloads for WMI.
@@ -124,6 +123,7 @@ Since the [Releases page](https://github.com/franzageek/wmi/releases) is a littl
 [**`→ v0.1.3`**](https://github.com/franzageek/wmi/releases/tag/0.1.3)
 [**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/0.1.6)
 [**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/0.2.0)
+[**`→ v0.2.2`**](https://github.com/franzageek/wmi/releases/tag/0.2.2)
 
 **UEFI**
 
@@ -132,6 +132,7 @@ Since the [Releases page](https://github.com/franzageek/wmi/releases) is a littl
 [**`→ v0.1.3`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.3)
 [**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.6)
 [**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.0)
+[**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.2)
 
 
 ## Credits
