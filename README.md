@@ -98,7 +98,7 @@ If you encountered **any kind of problem, please [open a issue](https://github.c
 
 ![wrb](https://user-images.githubusercontent.com/88248950/194742841-e05a3e21-a499-4615-bd45-7915a7f16171.png)
 
-> **_NOTE_**: After using WMI UEFI 0.1.5, as well as its previous version, you cannot install Windows using WMI UEFI due to unknown bugs. We suggest you to use the default installer to install Windows from scratch. We will try to fix the problem as soon as possible. Sorry for the inconvenience.
+> **_NOTE_**: After using WMI Rollback UEFI 0.1.5, as well as its previous version, you cannot install Windows using WMI UEFI due to unknown bugs. We suggest you to use the default installer to install Windows from scratch. We will try to fix the problem as soon as possible. Sorry for the inconvenience.
 
 From WMI 0.2.0 onwards, WMI will have a recovery procedure to start whenever needed.
 If an error occurs, WMI will start the rollback procedure, which will reset the disk by canceling all the changes made to it.
