@@ -47,6 +47,7 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 
 
  > **NOTE**: Windows Installer may assign the letter C: to your USB drive. For WMI to work, the C: letter **needs to be unassigned**: in case of that, take another free USB stick and copy "wmi.bat" on it. The installer will now detect 2 USB sticks: one has got the C: letter and the other one has got another letter. See which one is the C: drive and unplug it. The other USB stick has got another letter that is no longer C: and WMI can continue with the process.
+ > > There's no need to do anything of this as we recently introduced a letter-selecton menu.
  
  #### 2 - Start Windows installation as normal
  **Turn on your PC** and **start the Windows Installer**. At the language screen, **press `Shift` + `F10`** : this should bring up the **Command Prompt**.
@@ -71,9 +72,9 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
   
   **Stage 0**: it is the first stage, when you first run WMI from the USB. It prepares the disk using DiskPart, applies the Windows Image using DISM, creates the boot files using BCDBOOT on the boot partition, imports the necessaries hives to the Registry to enable essetial features.
   
-  **Stage 1**: it is the second stage. Stage 1 needs to run from the CMD prompt that appears after the first restart, by the C:\ drive. This time, type "C:\wmi.bat" to start WMI. After you run it, WinDeploy sets up services, drivers and resources, and after its completion, you can create your user account. After that, the necessaries Registry keys get created and Stage 1 ends.
+  **Stage 1**: it is the second stage. WMI will automatically run from the CMD prompt that appears after the first restart. WinDeploy sets up services, drivers and resources, and after its completion, you can create your user account. After that, the necessaries Registry keys get created and Stage 1 ends.
   
-  **Stage 2**: it is the last stage. It begins after the second reboot. This time you don't have to run WMI from the CMD because it is silently acting in background. It starts Local Session Manager, Windows Modules Installer and sets up your PC with TrustedInstaller. When it's done, you should see the desktop, and the installation is complete. To end completely the Stage 2, you need to run the last time WMI from an elevate CMD, by typing again "c:\wmi.bat". This time, WMI will delete temporary files and itself from the C:\ drive, allowing you to use Windows as you ever did!
+  **Stage 2**: it is the last stage. It begins after Stage 1. It starts Local Session Manager, Windows Modules Installer and sets up your PC with TrustedInstaller. When it's done, you should see the desktop, and the installation is complete.
   
   ## Support
   WMI works with **multiple Windows versions**:
@@ -99,6 +100,9 @@ If you encountered **any kind of problem, please [open a issue](https://github.c
 ![wrb](https://user-images.githubusercontent.com/88248950/194742841-e05a3e21-a499-4615-bd45-7915a7f16171.png)
 
 > **_NOTE_**: After using WMI Rollback UEFI 0.1.5, as well as its previous version, you cannot install Windows using WMI UEFI due to unknown bugs. We suggest you to use the default installer to install Windows from scratch. We will try to fix the problem as soon as possible. Sorry for the inconvenience.
+> > **_UPDATE_**: We fixed the above bug in WMI Rollback UEFI 0.1.6
+
+
 
 From WMI 0.2.0 onwards, WMI will have a recovery procedure to start whenever needed.
 If an error occurs, WMI will start the rollback procedure, which will reset the disk by canceling all the changes made to it.
@@ -114,6 +118,8 @@ You can find WMI Rollback embedded with WMI 0.2.0 or later.
 
 `0.1.5`: Second version of WMI Rollback (Download WMI 0.2.2: [BIOS](github.com/franzageek/releases/tag/0.2.2)/[UEFI](github.com/franzageek/releases/tag/uefi-0.2.2))
 
+`0.1.6`: Third version of WMI Rollback (Download WMI 0.2.3: [BIOS](github.com/franzageek/releases/tag/0.2.3)/[UEFI](github.com/franzageek/releases/tag/uefi-0.2.3))
+
 ## Downloads
 Since the [Releases page](https://github.com/franzageek/wmi/releases) is a little messed up, here you can find all the downloads for WMI.
 
@@ -125,6 +131,7 @@ Since the [Releases page](https://github.com/franzageek/wmi/releases) is a littl
 [**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/0.1.6)
 [**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/0.2.0)
 [**`→ v0.2.2`**](https://github.com/franzageek/wmi/releases/tag/0.2.2)
+[**`→ v0.2.3`**](https://github.com/franzageek/wmi/releases/tag/0.2.3)
 
 **UEFI**
 
@@ -134,6 +141,7 @@ Since the [Releases page](https://github.com/franzageek/wmi/releases) is a littl
 [**`→ v0.1.6`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.1.6)
 [**`→ v0.2.0`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.0)
 [**`→ v0.2.2`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.2)
+[**`→ v0.2.3`**](https://github.com/franzageek/wmi/releases/tag/uefi-0.2.3)
 
 
 ## Credits
