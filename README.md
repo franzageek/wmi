@@ -14,8 +14,8 @@ The Batch installer for Windows!
 ## Introduction
 Windows Manual Installer is an **installer for Windows** written in **Batch**. It runs in 3 stages:
 - _**Stage 0**_: The disk gets prepared, the Windows image gets applied and the boot files get created.
-- _**Stage 1**_: Begins after the first reboot. WinDeploy sets up drivers and resources, and the user account is setted up.
-- _**Stage 2**_: Begins after the second reboot. The Windows Modules Installer gets started, TrustedInstaller sets up your PC and the installation is complete.
+- _**Stage 1**_: It begins after the first reboot. WinDeploy sets up drivers and resources, and the user account is setted up.
+- _**Stage 2**_: It begins after Stage 1 is completed. The Windows Modules Installer gets started, TrustedInstaller sets up your PC and the installation is complete.
 
 After you run WMI, you need to **follow on-screen steps** (for use & installation see [_`Use`_](https://github.com/franzageek/wmi#Use)).
 
@@ -23,8 +23,8 @@ WMI will use **some pre-installed tools**:
 - DISKPART to prepare the disk for Windows;
 - DISM to apply the Windows image;
 - BCDBOOT to create boot files;
-- BOOTREC to check if Windows got installed successfully;
-- REGEDIT to create some values to install Windows properly;
+- BOOTREC to check if Windows got successfully installed;
+- REGEDIT to create some values to properly install Windows;
 - NET to create the user account;
 - WINDEPLOY to set up drivers & services.
 
