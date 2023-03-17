@@ -12,7 +12,9 @@ The Batch installer for Windows!
 
 
 ## Introduction
-Windows Manual Installer is an **installer for Windows** written in **Batch**. It runs in 3 stages:
+Windows Manual Installer is an **installer for Windows** written in **Batch**. 
+It is actually **faster** than the standard one!
+It runs in 3 stages:
 - _**Stage 0**_: The disk gets prepared, the Windows image gets applied and the boot files get created.
 - _**Stage 1**_: It begins after the first reboot. WinDeploy sets up drivers and resources, and the user account is setted up.
 - _**Stage 2**_: It begins after Stage 1 is completed. The Windows Modules Installer gets started, TrustedInstaller sets up your PC and the installation is complete.
