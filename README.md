@@ -54,7 +54,7 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
  > > There's no need to do anything of this as we recently introduced a letter-selecton menu.
  
  #### 2 - Start Windows installation as normal
- **Turn on your PC** and **start the Windows Installer**. At the language screen, **press `Shift` + `F10`** : this should bring up the **Command Prompt**.
+ **Turn on your PC** and **start the Windows Installer**. At the language screen, **press <kbd>Shift</kbd> + <kbd>F10</kbd>** : this should bring up the **Command Prompt**.
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575039-441bb6c4-13df-4c83-88e8-30702a763655.png">
 
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575061-91b56dae-29da-4c0f-b545-abc726488aae.png">
