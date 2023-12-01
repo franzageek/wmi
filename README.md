@@ -35,7 +35,7 @@ If you encountered any kind of problem, **please [open a issue](https://github.c
 And... that's it! A Batch Windows Installer! (What did you expect from a Batch Windows Installer?!?!) 
 
 ## Use
-WMI is **very simple & intuitive**. Follow **the guide** and the **WMI on-screen steps** to install Windows correctly.
+WMI is **very simple & straightforward**. Follow **the guide** and the **on-screen steps** to install Windows correctly.
 
 ### Prerequisites
 - A computer (or a virtual machine);
@@ -61,7 +61,7 @@ First, you need to **download "wmi.bat"** from [the Releases page](https://githu
 
  
  #### 3 - Start WMI
-  On the CMD, **start WMI.BAT** by typing its path (in my case it's **"e:\wmi.bat"**).
+  On the CMD, **start WMI.BAT** by typing its full path (in my case it's **"e:\wmi.bat"**).
 <img width="800" alt="ewmi" src="https://user-images.githubusercontent.com/88248950/178575318-a143f1de-df8f-4656-9459-b90d8c500c19.png">
 
   
@@ -109,9 +109,9 @@ If you encountered **any kind of problem, please [open a issue](https://github.c
 
 
 From WMI 0.2.0 onwards, WMI will have a recovery procedure to start whenever needed.
-If an error occurs, WMI will start the rollback procedure, which will reset the disk by canceling all the changes made to it.
+If an error occurs, WMI will start the rollback procedure, which will reset the disk by wiping all the data off of it, along with the changes made to it by WMI.
 This way, the drive can be used again without any problem.
-It detects the problem and it automatically starts the rollback phase.
+It detects the problem and automatically starts the rollback accordingly.
 It formats the drive you selected earlier using NTFS and makes it ready for a next usage.
 This way, if WMI encounters any error, WMI Rollback will kick in, reverting all the changes made to the disk.
 
