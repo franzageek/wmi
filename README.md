@@ -3,7 +3,8 @@
 
 ![](https://img.shields.io/badge/real_hardware_test-passed-brightgreen?style=plastic)
 
-The Batch installer for Windows!
+A Batch installer for Windows!
+##(C++ port is coming!)
 
 ![wmi](https://user-images.githubusercontent.com/88248950/178521169-f7996995-211f-41ba-b08d-e862ad6f7135.png)
 
