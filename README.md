@@ -18,7 +18,7 @@ Windows Manual Installer is an open C++ **installer program** that allows you to
 
 It's actually **faster** than the default one!
 
-WMI's job is split up in **3 stages**:
+WMI's job is split up into **3 stages**:
 
 - ***Stage 0***: It covers the phase you'd normally go through when first booting a Windows ISO image off of an USB. During Stage 0 the disk gets properly formatted, the Windows image gets extracted onto the hard drive and the boot config files get created.
 
