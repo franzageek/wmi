@@ -8,7 +8,7 @@ Install Windows the unintended way
 
 ![](https://img.shields.io/badge/real_hardware_test-passed-brightgreen?style=plastic)
 
-[**`Introduction`**](https://github.com/franzageek/wmi#introduction) - [**`Support`**](https://github.com/franzageek/wmi#support) - [**`How to build`**](https://github.com/franzageek/wmi#how-to-build) - [**`Credits`**](https://github.com/franzageek/wmi#credits)
+**<kbd>[Introduction](https://github.com/franzageek/wmi#introduction)</kbd>** - **<kbd>[Support](https://github.com/franzageek/wmi#support)</kbd>** - **<kbd>[How to build](https://github.com/franzageek/wmi#how-to-build)</kbd>** - **<kbd>[Credits](https://github.com/franzageek/wmi#credits)</kbd>**
 
 ## 
 
