@@ -97,7 +97,7 @@ $ make clean
 
 You'll then be ready to build WMI again from scratch.
 
-Or alternatively, you can just download the [prebuilt zip](https://github.com/franzageek/wmi/releases/latest).
+> Or alternatively, you can just download the [prebuilt zip](https://github.com/franzageek/wmi/releases/latest).
 
 ## Support
 
