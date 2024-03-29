@@ -4,7 +4,7 @@ Install Windows the unintended way
 
 ![wmi](https://user-images.githubusercontent.com/88248950/178521169-f7996995-211f-41ba-b08d-e862ad6f7135.png)
 
-[![](https://img.shields.io/badge/Go_to-releases-brightgreen?style=for-the-badge&logo=github)](https://github.com/franzageek/wmi/releases) [![](https://img.shields.io/badge/Fork-blue?style=for-the-badge&logo=github)](https://github.com/franzageek/wmi/fork) [![](https://img.shields.io/badge/Report_an_issue-red?style=for-the-badge&logo=github)](https://github.com/franzageek/wmi/issues) [![](https://img.shields.io/badge/Share_Feedback-turquoise?style=for-the-badge)](https://github.com/franzageek/wmi/discussions/2) 
+[![](https://img.shields.io/badge/Go_to-releases-brightgreen?style=for-the-badge&logo=github)](https://github.com/franzageek/wmi/releases) [![](https://img.shields.io/badge/Fork-blue?style=for-the-badge&logo=github)](https://github.com/franzageek/wmi/fork) [![](https://img.shields.io/badge/Report_an_issue-red?style=for-the-badge&logo=github)](https://github.com/franzageek/wmi/issues)
 
 ![](https://img.shields.io/badge/real_hardware_test-passed-brightgreen?style=plastic)
 
