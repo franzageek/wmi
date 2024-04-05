@@ -77,7 +77,7 @@ To build WMI, you first need to open a terminal window in the root directory.
 $ make
 ```
 
-It will re-generate the executable only, which will be output in the `bin/` folder.
+> It will re-generate the executable only, which will be output in the `bin/` folder.
 
 - To make WMI ready for use, you can execute this command:
 
@@ -85,7 +85,7 @@ It will re-generate the executable only, which will be output in the `bin/` fold
 $ make install
 ```
 
-An `install/` folder will be created. It will contain every file needed for WMI to work.
+> An `install/` folder will be created. It will contain every file needed for WMI to work.
 
 After running `make install`, you can just copy the content of the `install/` folder and put it in the root of a common USB drive.
 
@@ -95,9 +95,9 @@ After running `make install`, you can just copy the content of the `install/` fo
 $ make clean
 ```
 
-You'll then be ready to build WMI again from scratch.
+> You'll then be ready to build WMI again from scratch.
 
-> Or alternatively, you can just download the [prebuilt zip](https://github.com/franzageek/wmi/releases/latest).
+Or alternatively, you can just download the [prebuilt zip](https://github.com/franzageek/wmi/releases/latest).
 
 ## Support
 
