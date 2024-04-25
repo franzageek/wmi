@@ -107,7 +107,7 @@ And if you've experienced any kind of problem while using WMI, I'd be very thank
 
 ## Credits
 
-Thanks to [Endermanch](https://www.youtube.com/@Endermanch) who was the first ever person which inspired me to create this awesome project. His videos where he gets to Windows' insides, fucks around with the system and tries to break everything are INSANE!
+Thanks to [Endermanch](https://www.youtube.com/@Endermanch) who was the first ever person which inspired me to start working on this awesome project. His videos where he gets to Windows' insides, fucks around with the system and tries to break everything are INSANE!
 
 Thanks to [massgravel](https://github.com/massgravel) for letting me use his [Microsoft Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) project.
 
