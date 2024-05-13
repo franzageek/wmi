@@ -1,6 +1,6 @@
 #include "../include/reg.hpp"
 
-int reg_create_key(std::string keyPath) 
+int reg_create_key(std::string keyPath) //Create a registry key
     {
         HKEY hKey;
         long ec = RegCreateKeyExA(HKEY_LOCAL_MACHINE, (LPCSTR)keyPath.c_str(), 0, NULL, REG_OPTION_NON_VOLATILE, KEY_ALL_ACCESS, NULL, &hKey, NULL); //ec = exit code
@@ -15,7 +15,7 @@ int reg_create_key(std::string keyPath)
         }
     }
 
-int reg_create_value(std::string keyPath, const char* valContent, std::string valName)
+int reg_create_value(std::string keyPath, const char* valContent, std::string valName) //Create a registry value
     {
         HKEY hKey;
         long ec = RegOpenKeyExA(HKEY_LOCAL_MACHINE, (LPCSTR)keyPath.c_str(), 0, KEY_ALL_ACCESS, &hKey);
@@ -37,7 +37,7 @@ int reg_create_value(std::string keyPath, const char* valContent, std::string va
         }
     }
 
-int reg_get_value(std::string keyPath, std::string valName, std::string& data)
+int reg_get_value(std::string keyPath, std::string valName, std::string& data) //Retrieve the specified value
     {
         HKEY hKey;
         CHAR szBuffer[512];
@@ -62,7 +62,7 @@ int reg_get_value(std::string keyPath, std::string valName, std::string& data)
         }
     }
 
-int reg_query_value(std::string keyPath, std::string valName)
+int reg_query_value(std::string keyPath, std::string valName) //Check if the specified value exists
     {
         HKEY hKey;
         long ec = RegOpenKeyExA(HKEY_LOCAL_MACHINE, (LPCSTR)keyPath.c_str(), 0, KEY_ALL_ACCESS, &hKey);
@@ -84,7 +84,7 @@ int reg_query_value(std::string keyPath, std::string valName)
         }
     }
 
-int reg_delete_key(std::string keyPath) 
+int reg_delete_key(std::string keyPath) //Delete the specified key altogether
     {
         long ec = RegDeleteKeyA(HKEY_LOCAL_MACHINE, (LPCSTR)keyPath.c_str());
         if (ec == ERROR_SUCCESS) 
@@ -97,7 +97,7 @@ int reg_delete_key(std::string keyPath)
         }
     }
 
-int reg_delete_value(std::string keyPath, std::string valName)
+int reg_delete_value(std::string keyPath, std::string valName) //Delete the specified value
     {
         HKEY hKey;
         long ec = RegOpenKeyExA(HKEY_LOCAL_MACHINE, (LPCSTR)keyPath.c_str(), 0, KEY_ALL_ACCESS, &hKey);
